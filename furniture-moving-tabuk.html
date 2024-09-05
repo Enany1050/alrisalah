@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مدونة شركة الرسالة لنقل الأثاث.">
+    <title>مدونة - شركة الرسالة</title>
+    <style>
+        /* القواعد الأساسية لجميع الصفحات */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f8f8;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #007BFF;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #0056b3;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 40px 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #007BFF;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        article h3 {
+            font-size: 1.5em;
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            font-size: 1.1em;
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        article a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        article a:hover {
+            color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+
+        /* تخصيص أنماط صفحة المقالة */
+        /* صفحات المقالة المخصصة */
+        .furniture-moving-arar {
+            background-color: #e9f5ff;
+        }
+
+        .furniture-moving-arar header {
+            background-color: #0056b3;
+        }
+
+        .furniture-moving-arar section {
+            background-color: #ffffff;
+            border-left: 5px solid #007BFF;
+        }
+
+        .furniture-moving-arar article h3 {
+            color: #004080;
+        }
+
+        .furniture-moving-arar article p {
+            color: #444;
+        }
+
+        /* يمكن إضافة المزيد من الأنماط الخاصة بكل صفحة مقالة هنا */
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            article h3 {
+                font-size: 1.3em;
+            }
+
+            article p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body class="furniture-moving-arar">
+    <header>
+        <h1>شركة الرسالة لنقل الأثاث </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="services.html">خدماتنا</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="contact.html">اتصل بنا</a></li>
+				</li><a href="furniture-moving-tabuk.html">خدمات نقل الأثاث في تبوك</a></li>
+                <li class="dropdown">
+                    <a href="blog.html">مدونة</a>
+                    <div class="dropdown-content">
+					
+                        
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>خدمات نقل الأثاث في تبوك</h2>
+		            <p>الانتقال إلى منزل جديد يمكن أن يكون تجربة مثيرة، ولكنه يأتي أيضاً مع مجموعة من التحديات، خاصة عندما يتعلق الأمر بنقل الأثاث. في تبوك، حيث تتنوع المنازل والمواقع، تبرز الحاجة إلى خدمات نقل أثاث موثوقة تضمن سلامة أغراضك وانتقالها بسلاسة. نقدم لك في هذا المقال دليلاً شاملاً حول كيفية اختيار أفضل خدمات نقل الأثاث في تبوك، وما الذي يجعلها خيارك الأمثل.</p>
+            
+            <h2>أهمية اختيار شركة نقل أثاث موثوقة</h2>
+            <p>اختيار شركة نقل أثاث محترفة هو الخطوة الأولى لضمان نجاح عملية الانتقال. الشركات ذات الخبرة العالية يمكنها التعامل مع جميع أنواع الأثاث، من القطع الكبيرة إلى الصغيرة، وتوفير خدمة تغليف وتجميع متميزة. الشركات الجيدة تضمن لك حماية أثاثك من التلف وتخفيض مستوى التوتر المرتبط بالانتقال.</p>
+            
+            <h2>التحديات الشائعة في نقل الأثاث</h2>
+            <ul>
+                <li><strong>التلف أثناء النقل:</strong> الأثاث قد يتعرض للخدوش أو الكسر إذا لم يتم نقله بشكل صحيح.</li>
+                <li><strong>التأخير في الوصول:</strong> تأخر الشحنات قد يتسبب في تأخير عملية الاستقرار في المنزل الجديد.</li>
+                <li><strong>إدارة الأحجام الكبيرة:</strong> بعض قطع الأثاث تتطلب جهدًا إضافيًا لتفكيكها أو نقلها عبر الممرات الضيقة.</li>
+            </ul>
+            <p>تساعد الشركات المحترفة في معالجة هذه التحديات بفعالية، مما يضمن لك تجربة انتقال سلسة وخالية من المتاعب.</p>
+            
+            <h2>خدماتنا في نقل الأثاث بتبوك</h2>
+            <p>نحن نقدم مجموعة من الخدمات الشاملة لنقل الأثاث في تبوك، لضمان تلبية جميع احتياجاتك:</p>
+            <ul>
+                <li><strong>التغليف الاحترافي:</strong> نستخدم مواد تغليف متطورة مثل النايلون الفقاعي والورق المقوى لحماية الأثاث من الصدمات والخدوش. عملية التغليف تحمي الأثاث من أي تلف محتمل أثناء النقل.</li>
+                <li><strong>تفكيك وتركيب الأثاث:</strong> فريقنا المتخصص يقوم بتفكيك الأثاث الكبير بعناية لضمان عدم تعرضه لأي أضرار، ثم يعيد تركيبه في المنزل الجديد بدقة عالية.</li>
+                <li><strong>النقل باستخدام شاحنات مجهزة:</strong> نحن نستخدم شاحنات مزودة بأحدث التقنيات للحفاظ على الأثاث ثابتاً وآمناً خلال الرحلة. الشاحنات تحتوي على أحزمة أمان وأرضيات مبطنة لتوفير أقصى حماية.</li>
+                <li><strong>خدمات التخزين الآمن:</strong> إذا كنت بحاجة إلى تخزين أثاثك قبل الانتقال إلى المنزل الجديد، نوفر لك مستودعات آمنة ومراقبة على مدار الساعة لضمان حماية الأثاث.</li>
+            </ul>
+            
+            <h2>كيفية التخطيط لعملية نقل الأثاث</h2>
+            <p>تخطيط عملية النقل بشكل جيد يساعد في تحقيق تجربة انتقال مريحة وفعالة. إليك بعض الخطوات الهامة:</p>
+            <ul>
+                <li><strong>إعداد قائمة بالأثاث والأغراض:</strong> حدد ما تحتاج لنقله وأولوياتك لضمان تنظيم العملية بشكل مثالي.</li>
+                <li><strong>تحديد موعد النقل:</strong> اختر توقيتاً مناسباً لنقل الأثاث يتناسب مع جدولك الزمني وتوفر الخدمة.</li>
+                <li><strong>التواصل مع الشركة:</strong> تأكد من مناقشة جميع التفاصيل مع الشركة للتأكد من تقديم الخدمة وفقاً لتوقعاتك.</li>
+            </ul>
+            
+            <h2>خطوات نقل الأثاث بنجاح من تبوك إلى وجهة أخرى</h2>
+            <p>إليك الخطوات الأساسية لنقل الأثاث من تبوك إلى وجهة أخرى:</p>
+            <ul>
+                <li><strong>الفحص الأولي للأثاث:</strong> فحص حالة الأثاث لتحديد الاحتياجات الخاصة للتغليف والنقل.</li>
+                <li><strong>اختيار حجم الشاحنة المناسب:</strong> حدد حجم الشاحنة بناءً على كمية الأثاث لتجنب التكدس وضمان الأمان.</li>
+                <li><strong>تغليف الأثاث بعناية:</strong> استخدم مواد تغليف ذات جودة عالية لحماية الأثاث من الأضرار.</li>
+            </ul>
+            
+            <h2>نصائح لتغليف الأثاث بشكل صحيح</h2>
+            <ul>
+                <li><strong>استخدم النايلون الفقاعي والورق المقوى:</strong> لتوفير حماية فعالة ضد الصدمات والخدوش.</li>
+                <li><strong>تغليف الزوايا والحواف:</strong> لتفادي أي أضرار قد تحدث أثناء النقل.</li>
+                <li><strong>وضع الملصقات:</strong> لتسهيل التعرف على محتويات الصناديق عند الوصول.</li>
+            </ul>
+            
+            <h2>التكلفة والعروض المتاحة</h2>
+            <p>تكلفة نقل الأثاث تعتمد على عوامل متعددة مثل كمية الأثاث والمسافة والخدمات الإضافية. نحن نقدم أسعار تنافسية وعروض ترويجية لعملائنا لضمان أفضل قيمة مقابل المال.</p>
+            
+            <h2>كيفية اختيار الشركة المناسبة</h2>
+            <p>قبل اتخاذ قرارك، تأكد من قراءة التقييمات والآراء من العملاء السابقين، ومقارنة الخدمات والأسعار بين الشركات المختلفة، وزيارة مواقعها الإلكترونية للتعرف على مستوى احترافيتها.</p>
+            
+            <h2>الختام</h2>
+            <p>نحن هنا لتوفير أفضل خدمات نقل الأثاث في تبوك، مما يضمن لك تجربة انتقال خالية من المتاعب. اتصل بنا اليوم للحصول على استشارة مجانية وعرض سعر يتناسب مع احتياجاتك.</p>
+        </article>
+ 
+      
+            
+    </section>
+
+    <footer>
+        <p>&copy; 2024 شركة الرسالة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
